@@ -7,8 +7,11 @@ import { routing } from '../../i18n/routing'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: { default: 'NewsFlow', template: '%s | NewsFlow' },
-  description: 'Modern news management platform',
+  title: { default: 'NewsFlow | AnTonyPlay15', template: '%s | NewsFlow' },
+  description: 'Gestor de noticias moderno por AnTonyPlay15',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default async function LocaleLayout({

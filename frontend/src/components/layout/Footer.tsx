@@ -14,7 +14,15 @@ export default function Footer() {
           </span>
         </Link>
         <p className="text-sm text-gray-400">
-          © {new Date().getFullYear()} NewsFlow. Built with Next.js & Express.
+          © {new Date().getFullYear()} NewsFlow. Built with Next.js & Express by{" "}
+          <a 
+            href="https://portafolioweb-37b02.web.app/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-white transition-colors underline decoration-gray-600 underline-offset-4"
+          >
+            Anthony Paredes
+          </a>.
         </p>
       </div>
     </footer>
