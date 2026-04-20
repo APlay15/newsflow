@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "admin": "Manage",
+    "newPost": "New post"
+  },
+  "home": {
+    "hero": "Latest News",
+    "heroSub": "Stay informed with the most recent publications",
+    "searchPlaceholder": "Search news...",
+    "noResults": "No news found",
+    "noResultsSub": "Try a different term or create the first post",
+    "readMore": "Read more",
+    "loadMore": "Load more"
+  },
+  "post": {
+    "publishedOn": "Published on",
+    "backToHome": "Back to home",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this post?",
+    "deleteConfirmSub": "This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirmDelete": "Yes, delete"
+  },
+  "form": {
+    "createTitle": "New post",
+    "editTitle": "Edit post",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Write the title...",
+    "contentLabel": "Content",
+    "contentPlaceholder": "Write the content...",
+    "imageLabel": "Image",
+    "imageUrlPlaceholder": "https://...",
+    "imageUploadLabel": "Upload image",
+    "imageUrlLabel": "Or use external URL",
+    "submit": "Publish post",
+    "submitEdit": "Save changes",
+    "cancel": "Cancel"
+  },
+  "admin": {
+    "title": "Admin panel",
+    "subtitle": "Manage all your posts",
+    "totalPosts": "Total posts",
+    "newPost": "New post",
+    "noPostsYet": "No posts yet",
+    "createFirst": "Create your first post",
+    "actions": "Actions"
+  },
+  "status": {
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "deleting": "Deleting...",
+    "error": "An error occurred",
+    "tryAgain": "Try again"
+  },
+  "toast": {
+    "created": "Post created successfully",
+    "updated": "Post updated successfully",
+    "deleted": "Post deleted successfully",
+    "error": "Something went wrong. Please try again."
+  }
+}

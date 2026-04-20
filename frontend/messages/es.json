@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "admin": "Administrar",
+    "newPost": "Nueva noticia"
+  },
+  "home": {
+    "hero": "Últimas Noticias",
+    "heroSub": "Mantente informado con las publicaciones más recientes",
+    "searchPlaceholder": "Buscar noticias...",
+    "noResults": "No se encontraron noticias",
+    "noResultsSub": "Intenta con otro término o crea la primera noticia",
+    "readMore": "Leer más",
+    "loadMore": "Cargar más"
+  },
+  "post": {
+    "publishedOn": "Publicado el",
+    "backToHome": "Volver al inicio",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "deleteConfirm": "¿Eliminar esta noticia?",
+    "deleteConfirmSub": "Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "confirmDelete": "Sí, eliminar"
+  },
+  "form": {
+    "createTitle": "Nueva noticia",
+    "editTitle": "Editar noticia",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Escribe el título...",
+    "contentLabel": "Contenido",
+    "contentPlaceholder": "Escribe el contenido...",
+    "imageLabel": "Imagen",
+    "imageUrlPlaceholder": "https://...",
+    "imageUploadLabel": "Subir imagen",
+    "imageUrlLabel": "O usar URL externa",
+    "submit": "Publicar noticia",
+    "submitEdit": "Guardar cambios",
+    "cancel": "Cancelar"
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "subtitle": "Gestiona todas tus noticias",
+    "totalPosts": "Total de noticias",
+    "newPost": "Nueva noticia",
+    "noPostsYet": "Aún no hay noticias",
+    "createFirst": "Crea tu primera noticia",
+    "actions": "Acciones"
+  },
+  "status": {
+    "loading": "Cargando...",
+    "saving": "Guardando...",
+    "deleting": "Eliminando...",
+    "error": "Ocurrió un error",
+    "tryAgain": "Intentar de nuevo"
+  },
+  "toast": {
+    "created": "Noticia creada exitosamente",
+    "updated": "Noticia actualizada exitosamente",
+    "deleted": "Noticia eliminada exitosamente",
+    "error": "Algo salió mal. Inténtalo de nuevo."
+  }
+}

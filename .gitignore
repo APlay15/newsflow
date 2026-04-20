@@ -1,0 +1,13 @@
+# Ignorar dependencias
+node_modules/
+.next/
+dist/
+build/
+
+# Ignorar variables de entorno (seguridad)
+.env
+.env.local
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
