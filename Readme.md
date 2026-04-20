@@ -4,8 +4,8 @@ Gestor de noticias full stack moderno construido con Next.js, Express y PostgreS
 
 ## 🚀 Demo
 
-- **Frontend:** https://newsflow-mu.vercel.app
-- **Backend:** https://newsflow-backend-omf6.onrender.com
+- **Frontend:** [https://newsflow-mu.vercel.app](https://newsflowv2.vercel.app)
+- **Backend:** [https://newsflow-backend-omf6.onrender.com](https://newsflow-backend-omf6.onrender.com)
 
 ## 🛠️ Stack tecnológico
 
