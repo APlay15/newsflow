@@ -10,7 +10,7 @@ import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import PostCard from '@/components/news/PostCard'
 
-export default function HomePage() {
+export default function HomePage({ params: { locale } }: { params: { locale: string } }) {
   const t = useTranslations()
   const [posts, setPosts] = useState<Post[]>([])
   const [search, setSearch] = useState('')
@@ -47,8 +47,10 @@ export default function HomePage() {
     return () => clearTimeout(timer)
   }, [search])
 
+  // Forzar re-render cuando cambia el locale
+  const key = locale
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div key={key} className="min-h-screen bg-gray-50">
       <Navbar />
 
       {/* Hero */}

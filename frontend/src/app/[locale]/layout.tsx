@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, getLocale } from 'next-intl/server'
 import { Toaster } from 'react-hot-toast'
 import { routing } from '../../i18n/routing'
 import './globals.css'
@@ -9,28 +9,32 @@ import './globals.css'
 export const metadata: Metadata = {
   title: { default: 'NewsFlow | AnTonyPlay15', template: '%s | NewsFlow' },
   description: 'Gestor de noticias moderno por AnTonyPlay15',
-  icons: {
-    icon: '/favicon.svg',
-  },
+  icons: { icon: '/favicon.svg' },
 }
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode
   params: { locale: string }
 }) {
+  const locale = params.locale
+
   if (!routing.locales.includes(locale as 'en' | 'es')) {
     notFound()
   }
 
-  const messages = await getMessages()
+  const messages = await getMessages({ locale })
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider
+          key={locale}
+          locale={locale}
+          messages={messages}
+        >
           {children}
           <Toaster
             position="bottom-right"

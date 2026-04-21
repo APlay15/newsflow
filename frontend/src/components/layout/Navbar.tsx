@@ -27,7 +27,10 @@ export default function Navbar() {
 
   const toggleLocale = () => {
     const nextLocale = locale === 'es' ? 'en' : 'es'
-    router.replace(pathnameWithoutLocale, { locale: nextLocale })
+    // Remover el locale actual del pathname y construir la nueva URL
+    const segments = pathname.split('/')
+    segments[1] = nextLocale
+    window.location.href = segments.join('/')
   }
 
   return (
